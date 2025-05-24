@@ -1045,6 +1045,6 @@ a.btn-protocolo:hover {
   }
 
   .placeholder-image {
-     height: 570px;
+     height: 570px !important;
   }
 }
