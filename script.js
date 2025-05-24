@@ -125,18 +125,17 @@ window.addEventListener("DOMContentLoaded", function () {
 
   renderVideoList();
 
-  setInterval(() => {
-    const btnReporta = document.querySelector(".btn-reporta");
-    if (btnReporta) {
-      const bellIcon = btnReporta.querySelector("svg");
-      if (bellIcon) {
-        bellIcon.classList.remove("bell-animate");
-        setTimeout(() => {
-          bellIcon.classList.add("bell-animate");
-        }, 10);
-      }
-    }
-  }, 1000);
+  // setInterval(() => {
+  //   document.querySelectorAll(".btn-reporta").forEach(btnReporta => {
+  //     const bellIcon = btnReporta.querySelector("svg");
+  //     if (bellIcon) {
+  //       bellIcon.classList.remove("bell-animate");
+  //       // Forzar reflow para reiniciar la animación
+  //       void bellIcon.offsetWidth;
+  //       bellIcon.classList.add("bell-animate");
+  //     }
+  //   });
+  // }, 1000);
 
   if (btnSubir) {
     btnSubir.addEventListener("click", function () {
@@ -190,7 +189,7 @@ window.addEventListener("DOMContentLoaded", function () {
         <div class="col-md-4 col-sm-6 col-gap-6">
           <div class="card">
             <div class="card__header">
-              <img src="${card.img}" alt="card__image" class="card__image" width="600" />
+              <img src="${card.img}" alt="card__image" class="card__image" />
             </div>
             <div class="card__body">
               <h4>${card.title}</h4>
