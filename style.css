@@ -224,7 +224,8 @@ body {
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
-  height: 200px;
+  /*height: 200px;*/
+  height: 170px;
   display: flex;
   /*justify-content: center;
   align-items: center;*/
