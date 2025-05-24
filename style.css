@@ -1045,7 +1045,7 @@ a.btn-protocolo:hover {
   }
 }
 
-@media (min-width: 500px) and (max-width: 1536px) {
+@media (max-width: 500px) {
   .placeholder-image {
     height: 25vh;
   }
