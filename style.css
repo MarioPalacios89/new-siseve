@@ -1048,17 +1048,26 @@ a.btn-protocolo:hover {
 @media (max-width: 500px) {
   .placeholder-image {
     height: 25vh;
+    width: 100%;
+    object-fit: cover;
+    display: block;
   }
 }
 
 @media (max-width: 400px) {
   .placeholder-image {
     height: 22vh;
+    width: 100%;
+    object-fit: cover;
+    display: block;
   }
 }
 
 @media (min-width: 401px) and (max-width: 468px) {
   .placeholder-image {
     height: 25vh;
+    width: 100%;
+    object-fit: cover;
+    display: block;
   }
 }
