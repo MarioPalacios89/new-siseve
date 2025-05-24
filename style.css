@@ -1050,3 +1050,9 @@ a.btn-protocolo:hover {
     height: 25vh;
   }
 }
+
+@media (max-width: 400px) {
+  .placeholder-image {
+    height: 21vh;
+  }
+}
