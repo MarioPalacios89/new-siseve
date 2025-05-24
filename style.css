@@ -757,6 +757,10 @@ a.btn-protocolo:hover {
   transform-origin: 50% 10%;
 }
 
+  #cards-container {
+    padding-bottom: 30px;
+  }
+
 /* =====================
    MEDIA QUERIES (ordenados de menor a mayor)
 ======================*/
@@ -800,7 +804,6 @@ a.btn-protocolo:hover {
   }
   #cards-container {
     padding: 0 30px;
-    padding-bottom: 30px;
   }
   .card {
     height: 200px;
