@@ -1025,6 +1025,7 @@ a.btn-protocolo:hover {
   .placeholder-image {
     height: 85vh;
     padding-top: 0;
+    height: 570px !important;
   }
 
   .splide__track,
@@ -1042,9 +1043,5 @@ a.btn-protocolo:hover {
 
   .fixed-header + .placeholder-image {
     margin-top: 0;
-  }
-
-  .placeholder-image {
-     height: 570px !important;
   }
 }
