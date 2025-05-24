@@ -1045,14 +1045,14 @@ a.btn-protocolo:hover {
   }
 }
 
-@media (max-width: 500px) {
-  .placeholder-image {
-    height: 25vh;
-  }
-}
-
 @media (max-width: 400px) {
   .placeholder-image {
     height: 21vh;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 500px) {
+  .placeholder-image {
+    height: 25vh;
   }
 }
