@@ -36,6 +36,7 @@ body {
 .navbar {
   font-family: GothamRnd !important;
   margin-bottom: 0 !important;
+  border-radius: 0 !important;
 }
 .navbar .nav:nth-child(1) {
   margin-top: 5px !important;
