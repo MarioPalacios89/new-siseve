@@ -325,7 +325,8 @@ body {
 .placeholder-image {
   /* height: 220px; */
   background-color: #d6f4ff;
-  display: flex;
+  /*display: flex;*/
+  display: block;
   justify-content: center;
   align-items: center;
   color: #333;
@@ -333,8 +334,10 @@ body {
   width: 100%;
   position: relative;
   overflow: hidden;
-  height: auto;
+  /*height: auto;*/
+  height: clamp(22vh, 6vw + 15vh, 25vh);
   padding-top: 40px;
+  object-fit: cover;
 }
 .splide__slide {
   height: 220px;
@@ -1042,32 +1045,5 @@ a.btn-protocolo:hover {
 
   .fixed-header + .placeholder-image {
     margin-top: 0;
-  }
-}
-
-@media (max-width: 500px) {
-  .placeholder-image {
-    height: 25vh;
-    width: 100%;
-    object-fit: cover;
-    display: block;
-  }
-}
-
-@media (max-width: 400px) {
-  .placeholder-image {
-    height: 22vh;
-    width: 100%;
-    object-fit: cover;
-    display: block;
-  }
-}
-
-@media (min-width: 401px) and (max-width: 468px) {
-  .placeholder-image {
-    height: 25vh;
-    width: 100%;
-    object-fit: cover;
-    display: block;
   }
 }
