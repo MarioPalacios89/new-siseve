@@ -1043,4 +1043,8 @@ a.btn-protocolo:hover {
   .fixed-header + .placeholder-image {
     margin-top: 0;
   }
+
+  .placeholder-image {
+     height: 570px;
+  }
 }
