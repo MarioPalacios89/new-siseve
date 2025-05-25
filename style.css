@@ -323,21 +323,20 @@ body {
    SLIDER & PLACEHOLDER
 ======================*/
 .placeholder-image {
-  /* height: 220px; */
-  background-color: #d6f4ff;
-  /*display: flex;*/
-  display: block;
-  justify-content: center;
-  align-items: center;
-  color: #333;
-  font-size: 24px;
+  height: clamp(22vh, 6vw + 15vh, 25vh);
   width: 100%;
+  background-color: #d6f4ff;
   position: relative;
   overflow: hidden;
-  /*height: auto;*/
-  height: clamp(22vh, 6vw + 15vh, 25vh);
-  padding-top: 40px;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.placeholder-image img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  display: block;
 }
 .splide__slide {
   height: 220px;
